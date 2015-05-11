@@ -22,13 +22,6 @@ function kviz(){
 	    alert( "Az adatok lekérdezése a szerverről sikertelen!");
 	    document.location="index.html";
 	});
-	
-	//mentés elrejtése vagy megjelenítése
-	if(localStorage.osszes<5){
-		$("#save").hide();
-	}else{
-		$("#save").show();
-	}
 }
 kviz();
 
